@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Download Range</title>	
+<link href="download.css" rel="stylesheet">
+</head>
+<body>
+<div class="down">
+<input type="button" id="st" value="Start Download" onclick="start()">
+<input type="button" id="stop" value="Stop" disabled onclick="stopval()">
+<input type="button" id="pause" value="Pause" disabled onclick="pauseval()">
+<div id="download">
+<h2 id="suc">Downloading....</h2>
+<meter id="dwn" min="1" max="100"></meter><span id="count"></span>
+</div>
+</div>
+<script src="download.js"></script>
+</body>
+</html>

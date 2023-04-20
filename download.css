@@ -1,0 +1,37 @@
+
+.down{
+	max-width:400px;
+	max-height:400px;
+	background-color:white;
+	text-align:center;
+	margin-top:240px;
+    margin-left:450px;	
+}
+#download{
+display:none;
+}
+input[type="button"]{
+height:35px;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+padding:5px;
+margin-right:10px;
+}
+input[type="button"]:hover{
+	cursor:pointer;
+	
+}
+#suc{
+	font-size:30px;
+}
+#count{
+	font-size:20px;
+	margin-left:20px;
+	position:relative;
+	top:-6px;
+}
+meter{
+	width:200px;
+	height:30px;
+}
